@@ -38,7 +38,7 @@ export default function PriceList({ game }: { game: IGame }) {
               key={price.country}
               title={price.country}
               accessories={[
-                { text: `${price.cutoff ? `【${price.cutoff} OFF】 - ` : ""}${price.price.toString()} CNY` },
+                { text: `${price.cutoff ? `【${price.cutoff}% OFF】 - ` : ""}${price.price.toString()} CNY` },
               ]}
             />
           );

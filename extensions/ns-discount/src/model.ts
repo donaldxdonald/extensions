@@ -46,6 +46,9 @@ export interface IGameInfo {
 }
 
 export interface IPrice {
+  // Country Code
+  coinName: string;
+
   // 地区
   country: string;
 

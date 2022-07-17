@@ -50,7 +50,7 @@ export default function Command() {
             title={game.titleZh}
             subtitle={game.title}
             icon={{ source: game.icon }}
-            accessories={[{ text: `${game.cutoff} OFF` }]}
+            accessories={[{ text: `${game.cutoff}% OFF` }]}
             actions={
               <ActionPanel>
                 <ActionPanel.Section title="Features">
